@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    height: 50px;
+    width: 100px;
+    background-color: #0f1111;
+    background-size: cover;
+}
+
+.logo{
+    background-image: url("logo.jpg");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 25px;
+
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border:0.5px solid white;
+}
+
+/** box two deliver to india **/
+
+.delive-to-line{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.india-line{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+
+/** box three nav select and search funciton **/
+
+.nav_select{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-bottom: 3px;
+    justify-content: space-evenly;
+}
+
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.input_text{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    font-size: 1.3rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: black;
+    
+}
+
+.nav_select:hover{
+    border: 2px solid orange;
+}
+
+/** box Four nav select **/
+
+span{
+    font-size: 0.7rem;
+}
+
+.Accounts{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/** box five nav cart **/
+
+.nav_cart i{
+    font-size: 30px;
+}
+
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** panel **/
+
+.panel{
+    height: 50px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.panel_op p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel_op{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel_deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/** hero section **/
+
+.hero_section{
+    background-image: url("hero.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero_msg{
+    background-color: white;
+    color: black;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.hero_msg a{
+    color:#007185;
+    text-decoration: none;
+}
+
+/** shop section **/
+
+.shop_section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+
+.box{
+    border: 2px solid black;
+    height: 280px;
+    width: 20%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box_image{
+    background-size: cover;
+    height:200px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box_contant{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box_contant p{
+    color: #007185;
+}
+
+
+/** footer panel **/
+
+footer{
+    margin-top: 15px;
+}
+
+.foot_panel_1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+
+.foot_panel_2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot_panel_2 a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 0.9rem;
+}
+
+
+.foot_panel_2 ul {
+    margin-top: 25px;
+}
+
+
+.foot_panel_3{
+    background-color: #222f3d;
+    color: white;
+    border: 2px solid white;
+    margin-top: 0.1px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo_footer{
+    background-image: url("logo.jpg");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.foot_panel_4{
+    background-color: #0f1111;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.pages a{
+    text-decoration: none;
+    color: white;
+}
+
+.pages{
+    padding-top: 20px;
+
+}
+
+
+.copyright{
+    padding: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
