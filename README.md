@@ -1,1 +1,1 @@
-<h3> html , css and js projects</h3>
+<h3>Html ,css and js projects</h3>
